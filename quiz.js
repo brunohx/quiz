@@ -32,7 +32,7 @@ $(document).ready(function(){
                 progress = 100;
                 $("#analyzeBar").removeClass("progress-bar-striped");
                 $("#analyzeText").removeClass("text-right").addClass("text-center");
-                $("#analyzeText").html("Concluído!");
+                $("#analyzeText").html("Concluído! Aguarde...");
                 setTimeout(function () {
                     $('.validatingDiv').fadeOut('slow', function () {
                         $('.hp2').fadeIn('slow');
