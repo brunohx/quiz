@@ -25,7 +25,7 @@ $(document).ready(function(){
         var progress = 5;
     
         function validateQuiz() {
-            progress += 3.7;
+            progress += 10;
             $("#analyzeBar").css("width", Math.min(progress, 100) + "%");
             $("#analyzeText").html(Math.min(Math.round(progress), 100) + "%");
             if (progress >= 100) {
